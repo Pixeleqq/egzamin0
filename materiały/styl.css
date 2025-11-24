@@ -1,0 +1,51 @@
+*{
+    font-family: Century, Serif;
+}
+#baner{
+    justify-items: 10px;
+    align-items: center;
+}
+#baner img{
+    display: inline-block;
+}
+#baner, #stopka{
+    background-color: #CCA10B;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+#lewy, #prawy{
+    background-color: rgb(5,160,88,80%);
+    display: flex;
+}
+#lewy{
+    text-align: left;
+    width: 70%;
+    height: 620px;
+}
+#prawy{
+    font-family: 'LucidaConsole', 'Consolas', 'Courier New', monospace;
+    width: 30%;
+    height: 600px;
+    padding-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+
+#baner p{
+    font-style: bold;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 60%);
+    
+}
+h1{
+    padding-left: 30px;
+}
+#lewy img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+}
